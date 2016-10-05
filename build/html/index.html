@@ -1,0 +1,242 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Welcome to DataRadar.IO API’s documentation! &mdash; DataRadar.IO 1.0 documentation</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+    <link rel="top" title="DataRadar.IO 1.0 documentation" href="#"/>
+        <link rel="next" title="Fair Use policy" href="fair_use.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="#" class="icon icon-home"> DataRadar.IO
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <p class="caption"><span class="caption-text">Introduction</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Home</a></li>
+<li class="toctree-l1"><a class="reference internal" href="fair_use.html">Fair Use policy</a></li>
+</ul>
+<p class="caption"><span class="caption-text">API Documentation</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="API/api_doc.html">General Information</a></li>
+<li class="toctree-l1"><a class="reference internal" href="API/article_id.html">GET article/id</a></li>
+<li class="toctree-l1"><a class="reference internal" href="API/article_add.html">POST article/add</a></li>
+<li class="toctree-l1"><a class="reference internal" href="API/articles_all.html">GET articles/all</a></li>
+<li class="toctree-l1"><a class="reference internal" href="API/articles_list.html">GET articles/list</a></li>
+<li class="toctree-l1"><a class="reference internal" href="API/articles_search.html">GET article/search</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="#">DataRadar.IO</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+ 
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="#">Docs</a> &raquo;</li>
+      
+    <li>Welcome to DataRadar.IO API&#8217;s documentation!</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/index.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="welcome-to-dataradar-io-api-s-documentation">
+<h1>Welcome to DataRadar.IO API&#8217;s documentation!<a class="headerlink" href="#welcome-to-dataradar-io-api-s-documentation" title="Permalink to this headline">¶</a></h1>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Author:</th><td class="field-body">Jonathan DEKHTIAR</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Issues:</th><td class="field-body"><a class="reference external" href="https://github.com/DEKHTIARJonathan/Dataradar-API-Documentation/issues">https://github.com/DEKHTIARJonathan/Dataradar-API-Documentation/issues</a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">License:</th><td class="field-body">GNU GPL v3</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Version:</th><td class="field-body">1.0</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Generated:</th><td class="field-body">April 15, 2016</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
+<p><strong>DataRadar.IO</strong> is an <strong>open access</strong> platform created in order to share freely and widely
+ressources concerning data mining, data science, machine learning, computer vision and so on.
+I really hope this platform will become a <em>must-see</em> for every student in data science and but
+also for data analysts and data scientists.</p>
+<p>In order to widely open access to the ressources, the platform provides an <strong>API</strong> access.
+It&#8217;s free to use, you just need an API Key which is available upon request at : <a class="reference external" href="mailto:contact&#37;&#52;&#48;dataradar&#46;io">contact<span>&#64;</span>dataradar<span>&#46;</span>io</a></p>
+<p>If you need any specific method to crawl the platform, feel free to contact me.
+I&#8217;ll be glad to provide some help for your projects.</p>
+<p><strong>Our Motto :</strong> <em>Keep Sharing and Spreading Knowledge</em></p>
+<div class="toctree-wrapper compound" id="id1">
+</div>
+<div class="toctree-wrapper compound" id="api-documentation">
+</div>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="fair_use.html" class="btn btn-neutral float-right" title="Fair Use policy" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2014 - 2016, Jonathan DEKHTIAR.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'1.0',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
