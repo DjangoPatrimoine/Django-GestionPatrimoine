@@ -13,12 +13,14 @@ engines:
       languages:
       - python
       - javascript
+      - html
+      - css
 ratings:
   paths:
-  - app/**
-  - lib/**
-  - "**.rb"
-  - "**.go"
+  - "**.py"
+  - "**.html"
+  - "**.css"
+  - "**.js"
 exclude_paths:
-- spec/**/*
-- "**/vendor/**/*"
+- "**/tests/**"
+- "**/test_**.py"
