@@ -4,7 +4,9 @@
 [![Documentation Status](https://readthedocs.org/projects/django-gestionpatrimoine/badge/?version=doc-dev)](http://django-gestionpatrimoine.readthedocs.io/en/doc-dev/)
 [![Documentation Status](https://readthedocs.org/projects/django-gestionpatrimoine/badge/?version=doc-user)](http://django-gestionpatrimoine.readthedocs.io/en/doc-user/)
 [![Dependency Status](https://gemnasium.com/badges/github.com/DataIsTheNewBlack/Django-GestionPatrimoine.svg)](https://gemnasium.com/github.com/DataIsTheNewBlack/Django-GestionPatrimoine)
-
+[![Issue Count](https://codeclimate.com/repos/5810b7524ccb3e715a0019ff/badges/817135e63224b27e518a/issue_count.svg)](https://codeclimate.com/repos/5810b7524ccb3e715a0019ff/feed)
+[![Code Climate](https://codeclimate.com/repos/5810b7524ccb3e715a0019ff/badges/817135e63224b27e518a/gpa.svg)](https://codeclimate.com/repos/5810b7524ccb3e715a0019ff/feed)
+[![Test Coverage](https://codeclimate.com/repos/5810b7524ccb3e715a0019ff/badges/817135e63224b27e518a/coverage.svg)](https://codeclimate.com/repos/5810b7524ccb3e715a0019ff/coverage)
 
 ###Heroku
 
